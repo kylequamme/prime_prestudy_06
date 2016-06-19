@@ -1,0 +1,50 @@
+body{
+  background-color: hsl(200, 10%, 40%);
+  background-image: repeating-linear-gradient(transparent, transparent 50px, rgba(0,0,0,.4) 50px, rgba(0,0,0,.4) 53px, transparent 53px, transparent 63px, rgba(0,0,0,.4) 63px, rgba(0,0,0,.4) 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px),
+  repeating-linear-gradient(270deg, transparent, transparent 50px, rgba(0,0,0,.4) 50px, rgba(0,0,0,.4) 53px, transparent 53px, transparent 63px, rgba(0,0,0,.4) 63px, rgba(0,0,0,.4) 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px),
+  repeating-linear-gradient(125deg, transparent, transparent 2px, rgba(0,0,0,.2) 2px, rgba(0,0,0,.2) 3px, transparent 3px, transparent 5px, rgba(0,0,0,.2) 5px);
+  padding: 1vw;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2vw;
+}
+
+h1{
+  font-size: 5vw;
+}
+
+h2{
+  font-size: 3vw;
+}
+h2:hover{
+  color: #004466;
+
+}
+h3{
+  font-size: 2vw;
+}
+
+h{
+  font-size: 1.5vw;
+}
+
+.btn{
+  font-family: 'Nixie One', cursive;
+}
+
+main{
+  padding: 1vw;
+  background-color: #B0B0B0;
+  border-radius: 5px;
+  box-shadow: 8px 10px 15px #000000;
+}
+
+detail{
+  display: none;
+  width: 95%;
+  margin: auto;
+}
+
+hr{
+  border-color: black;
+  background-color: black;
+}

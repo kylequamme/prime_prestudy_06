@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Kyle Quamme</title>
+    	<!--Style Sheets-->
+    	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+		integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    	<link href='https://fonts.googleapis.com/css?family=Ubuntu:400,700' rel='stylesheet' type='text/css'>
+    	<link href='https://fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
+    	<link rel="stylesheet" type="text/css" href="style.css">
+    	<!--External JavaScript-->
+			<script src="https://code.jquery.com/jquery-1.12.1.min.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+       		integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+       		crossorigin="anonymous">
+    	</script>
+    	<!--Ensure proper rendering for bootstrap-->
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<main>
+		<header>
+			<h1>Kyle Quamme</h1>
+			<h4>10432 Johnson Ave S
+				<br>
+				Bloomington, MN 55437
+				<br>
+				ph: 651-783-6153
+				<br>
+				kyle.quamme@gmail.com
+			</h4>
+      		</header>
+      		<button type="button" class="btn btn-default btn-block"><h2>Resume</h2></button>
+      		<detail>
+        		<br>
+        		<h3 style="text-align:center"><b>Analytical self starter with a stong attention to detail, able to troubleshoot complex problems and provide innovative solutions.</b></h3>
+        		<br>
+			<h2>Quamme Services/qCreative</h2>
+        		<hr>
+        		<h3>Owner</h3>
+        		<h3>2010 - Current</h3>
+        		<ul>
+				<li>Create and maintain customer websites</li>
+				<li>Establish and maintain domains and hosting</li>
+				<li>Communicate effectively with customers to provide them with the best service</li>
+				<li>Document and invoice customers for work</li>
+				<li>Attend classes to improve industry knowledge and learn new technologies and techniques</li>
+			</ul>
+        		<br>
+        		<h2>Ziegler, Inc</h2>
+        		<hr>
+        		<h3>Technical Communicator</h3>
+        		<h3>April 2013 - Current</h3>
+        		<ul>
+          			<li>Receive inbound calls for multiple brands and products</li>
+	          		<li>Handle customer concerns immediately</li>
+          			<li>Conference the customer with other team members and departments</li>
+          			<li>Document all requests in ticket system</li>
+          			<li>Provide field service and in shop technicians with troubleshooting and repair resources</li>
+          			<li>Create tools to improve customer support capabilities</li>
+          			<li>Attend classes to improve product knowledge and diagnostic techniques</li>
+        		</ul>
+        		<br>
+        		<h2>ZTR(Ziegler Trac Rail) Control Systems</h2>
+        		<hr>
+        		<h3>Operations Coordinator</h3>
+        		<h3>April 2012 - April 2013</h3>
+			<ul>
+          			<li>Receive inbound calls for multiple brands and products</li>
+          			<li>Document calls in appropriate ticket system or database</li>
+          			<li>Make out-bound calls to request service to provide exceptional value to customers</li>
+        		</ul>
+      		</detail>
+    	</main>
+			<script>
+			$(document).ready(function(){
+    		$('button').click(function(){
+					console.log("Button clicked");
+        	$('detail').slideToggle();
+    		});
+			});
+</script>
+</body>
+</html>
